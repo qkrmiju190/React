@@ -1,0 +1,30 @@
+.problemWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.problem {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.selection {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.selection + .selection {
+  margin-top: 0.5rem;
+}
+
+.checkBox {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
